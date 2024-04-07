@@ -8,7 +8,7 @@
             color: rgb(0, 0, 0);
             height: auto;
             padding-bottom: 10%;
-            width: 100vw;
+            max-width: 100vw;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -29,7 +29,7 @@
         /* first project||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
         .one {
             height: 500px;
-            width: 50rem;
+            width: 90%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -46,7 +46,7 @@
             font-weight: 700;
             font-size: 30px;
             height: 250px;
-            width: 50%;
+            width: 90%;
             background-color: aqua;
             transition: 1s;
 
