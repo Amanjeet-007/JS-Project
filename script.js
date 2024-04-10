@@ -151,6 +151,19 @@
            
         })
         //-------------------------------------------- fourth project
+        let menu = document.querySelector(".menu ");
+        let icon = document.querySelector(".icon");let ak = 0;
+        function showMenu(){
+            
+            if(ak==0){
+                menu.style.top = "0px";
+                ak = 1
+            }
+            else{
+                menu.style.top = "-105px";
+                ak = 0;
+            }
+        }
 
 
 

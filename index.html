@@ -5,19 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>js practice of dom</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <link rel="stylesheet" href="style.css">
+
+
 <body>
+    <h2>Projects list</h2>
+    <ul>
+        <li><a href="#Color">Color change</a></li>
+        <li><a href="#Counter">Counter</a></li>
+        <li><a href="#Review">Review</a></li>
+        <li><a href="#Nav">Navbar</a></li>
+    </ul>
+    
     <!--  first project ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| > -->
+    <hr>
     <div class="one">
-        <h3>First Project</h3>
+        <h3 id="Color">First Project</h3>
         <div class="box">Hello World!</div>
         <p>"Click me" to change color</p>
         <button>Click me</button>
     </div>
     <!--second project ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||> -->
-    <h3>Second Project</h3>
+    <h3 id="Counter">Second Project</h3>
     <div class="two">
-        <h1>Counter</h1>
+        <h1 >Counter</h1>
         <h2 class="no">0</h2>
         <div class="buttons">
             <div class="button1">DECREASE</div>
@@ -28,7 +43,7 @@
     <!-- third proect |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||> -->
 
     <div class="three">
-        <h3>Third Project</h3>
+        <h3 id="Review">Third Project</h3>
         <h2>Our Reviews</h2>
         <div class="blue"></div>
         <div class="back">
@@ -38,12 +53,35 @@
             <div class="job"></div>
             <div class="review"></div>
             <div class="group">
-                        <button id="left">< </button>
+                <button id="left">
+                    < </button>
                         <button id="random"> Random </button>
                         <button id="right"> > </button>
             </div>
 
         </div>
+
+
+    </div>
+    <!-- ==========================fourth project -->
+
+ <h3>Fourth Project</h3>
+ <h2 id="Nav">Navbar</h2>
+    <div class="fourth">
+        <div class="nav">
+            <div class="logo">Logo</div>
+            <div class="icon" style="line-height: 5px; font-weight: 900;font-size: 20px;cursor: pointer;" onclick="showMenu()"><i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+            <li>HOME</li>
+            <li>PROJECT</li>
+            <li>FEATURES</li>
+            <li>CONTACT US</li>
+        </ul>
+        </div>
+ <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Click on menu icon</h4>
 
     </div>
 
@@ -53,8 +91,7 @@
 
 
 
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
