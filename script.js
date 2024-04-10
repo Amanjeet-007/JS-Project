@@ -164,6 +164,17 @@
                 ak = 0;
             }
         }
+        // ------------------------------------ fifth project
+        let cut = document.querySelector(".nav .cut");
+        let nav = document.querySelector(".fifth .nav");
+        let icon2 = document.querySelector(".icon2");
+        function showSide(){
+            nav.style.visibility = "visible";
+        }
+        cut.addEventListener("click",()=>{
+            nav.style.visibility = "hidden";
+        })
+        
 
 
 
