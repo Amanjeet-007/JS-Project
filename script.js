@@ -169,10 +169,25 @@
         let nav = document.querySelector(".fifth .nav");
         let icon2 = document.querySelector(".icon2");
         function showSide(){
-            nav.style.visibility = "visible";
+            if(a == 0){
+                nav.style.left = "0px";
+                a = 1;
+            }
+            else{
+                nav.style.left = "-100%";
+                a = 0;
+            }
+            
         }
         cut.addEventListener("click",()=>{
-            nav.style.visibility = "hidden";
+            nav.style.left = "-100%";
+        })
+        // ----------sixth project
+        let btn = document.querySelectorAll(".Q button");
+        btn.forEach(a=>{
+            a.addEventListener("click",(a)=>{
+                console.log(a)
+            })
         })
         
 
