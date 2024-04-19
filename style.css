@@ -18,7 +18,10 @@
                     rgba(0, 136, 127, 0.79) 100%);
                     position: relative;
             background-repeat: no-repeat;
+            overflow:hidden;
+            
         }
+        
         nav{
             height: 80px;
             width: 100%;
@@ -57,33 +60,41 @@
             font-size: 25px;
         }
         .m{
+            
             transition: .7s;
-            height: 80px;
-            width: 100%;
+            min-height: 80px;
+            min-width:min-content ;
             background-color: #bababa;
             position: absolute;
-            top: 0px;
-            
+            top: -100px;
+
+            overflow-x: scroll;
+            scrollbar-width: none;
+            left: 0px;
         }
         h2{
-            text-align: center;
-            margin: 10px;
-        }
-        ul{
-            list-style:decimal;
-           
+            text-align:left;
+            margin: 5px 20px;
         }
         ol{
             list-style: none;
             display: flex;
+            min-width: min-content;
+            overflow: scroll;
+            scrollbar-width:none;
+            flex-wrap: wrap;
 
         }
+        ol li{
+            width: 150px;
+        }
         ol li a{
-            margin: 10px;
+            min-width: min-content;
+            margin: 5px 15px;
             color: rgb(0, 0, 0);
             transition: .7s;
             padding: 3px 5px;
-            border-radius: 3px;
+            border-radius: 10px;
             text-decoration: none;
 
         }
