@@ -7,7 +7,7 @@
         mm = 1; 
         }
         else{
-            m.style.top = "0px"
+            m.style.top = "-100px"
             mm = 0;
         } 
    }
