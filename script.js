@@ -1,3 +1,16 @@
+   let op = document.querySelector(".op");
+   let m = document.querySelector(".m"); 
+   let mm = 0; 
+   function opo(){
+        if(mm==0){
+        m.style.top = "80px"
+        mm = 1; 
+        }
+        else{
+            m.style.top = "0px"
+            mm = 0;
+        } 
+   }
    // first projct|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     let a = document.querySelector(".one button");
     let b = document.querySelector(".box");
@@ -42,8 +55,6 @@
             number.textContent = change;
             color()
         }
-
-
     })
     reset.addEventListener("click", function () {
 
@@ -89,10 +100,6 @@
     let right = document.querySelector("#right");
     let rdm = document.querySelector("#random");
 
-
-
-
-
         let s = 0;
 //--------------- default review
         name.textContent = `${third[s].name}`;
@@ -123,7 +130,7 @@
             else {
                 s += 1;
             }
-
+            
             name.textContent = `${third[s].name}`;
             job.textContent = `${third[s].job}`
             review.textContent = `${third[s].review}`
